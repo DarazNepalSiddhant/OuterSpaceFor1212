@@ -1679,6 +1679,7 @@ self.C3_JsPropNameTable = [
 			const n1 = p._GetNode(1);
 			return () => f0(n1.ExpObject("Points"), 3);
 		},
+		() => -100,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const n1 = p._GetNode(1);
@@ -1813,6 +1814,8 @@ self.C3_JsPropNameTable = [
 		},
 		() => "senddata",
 		() => "GET",
+		() => 246.275,
+		() => 404.566,
 		() => 99,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
